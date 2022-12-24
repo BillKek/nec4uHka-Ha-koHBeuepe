@@ -7,7 +7,7 @@
 
 #define f long double
 
-wchar_t текст_вывода[10000];
+wchar_t текст_вывода[10000] = {0};
 
 #define outvar(X) {\
     wchar_t текст[10000];\
